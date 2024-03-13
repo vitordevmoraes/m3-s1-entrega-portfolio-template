@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .container {
+    max-width: 56.25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8125rem 0;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+  }
+  
+  .nav > a {
+    color: var(--color-secundary-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  
+  .button {
+    width: 7.1875rem;
+    height: 2.5rem;
+    background-color: var(--color-primary);
+    border-radius: 0.75rem;
+    border: none;
+    color: var(--color-secundary-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: background 0.5s ease-in-out;
+  }
+  .button:hover {
+    background-color: var(--color-primary-Hover);
+  }

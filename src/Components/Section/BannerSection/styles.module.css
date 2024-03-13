@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6.125rem 0 5.5rem;
+  }
+  
+  .containerInfo {
+    max-width: 56.25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5625rem;
+  }
+  
+  .containerText > h6 {
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 0.9375rem;
+  }
+  
+  .containerText > h1 {
+    color: var(--color-secundary-white);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.875rem;
+  }
+  
+  .containerText > p {
+    color: var(--color-secundary-white);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.875rem;
+  }
+  
+  .button {
+    width: 7.1875rem;
+    height: 2.5rem;
+    background-color: var(--color-primary);
+    border-radius: 0.75rem;
+    border: none;
+    color: var(--color-secundary-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: var(--color-primary-Hover);
+  }
+  

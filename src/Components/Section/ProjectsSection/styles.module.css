@@ -1,0 +1,32 @@
+.section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 3.9375rem;
+  }
+  
+  .container {
+    max-width: 56.25rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.75rem;
+    flex-direction: column;
+  }
+  
+  .info {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-secundary-white);
+    line-height: 3.0256rem;
+  }
+  .list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.0625rem;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,12 @@
+.btn {
+    padding: 1.25rem 1.95rem;
+  
+    background-color: var(--color-primary-Hover);
+    color: var(--color-secundary-White);
+  
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.0588rem;
+  }
+  
